@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="098e78a2-8e39-40a9-8c95-4d0105282498" name="Changes" comment="Первая версия">
+    <list default="true" id="098e78a2-8e39-40a9-8c95-4d0105282498" name="Changes" comment="ReplyKeyboardMarkup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +64,29 @@
       <option name="project" value="LOCAL" />
       <updated>1739894224784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Вторая версия">
+      <option name="closed" value="true" />
+      <created>1739894839332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739894839332</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ReplyKeyboardMarkup">
+      <option name="closed" value="true" />
+      <created>1739895854627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739895854627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первая версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая версия" />
+    <MESSAGE value="Вторая версия" />
+    <MESSAGE value="ReplyKeyboardMarkup" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReplyKeyboardMarkup" />
   </component>
 </project>

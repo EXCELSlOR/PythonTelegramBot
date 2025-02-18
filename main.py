@@ -1,6 +1,15 @@
 import telebot
+from telebot import types
 
 bot = telebot.TeleBot('8181700980:AAFw-EsOg3F0CUdkyVETdLS5LqKMQbTOvew')
+
+
+@bot.message_handler(commands=['start'])
+def send_first_message(message):
+    keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    keyboard.row("Привет!", "Как дела?")
+    bot.send_message(message.chat.id, "Я готов к общению",
+                     reply_markup=keyboard)
 
 
 @bot.message_handler(content_types=['text'],
@@ -15,8 +24,10 @@ def send_hello_message(message):
 def send_how_are_you_message(message):
     bot.send_message(message.from_user.id, "Отлично, как твои дела?")
 
+
 @bot.message_handler(content_types=['text'])
 def not_understand_message(message):
     bot.send_message(message.from_user.id, "Прости, не понимаю тебя")
+
 
 bot.polling(none_stop=True)
