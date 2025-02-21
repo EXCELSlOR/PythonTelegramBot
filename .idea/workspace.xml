@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="098e78a2-8e39-40a9-8c95-4d0105282498" name="Changes" comment="ReplyKeyboardMarkup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="098e78a2-8e39-40a9-8c95-4d0105282498" name="Changes" comment="InlineKeyboardMarkup">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
@@ -101,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739896239035</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="InlineKeyboardMarkup">
+      <option name="closed" value="true" />
+      <created>1740156578343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740156578343</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -118,6 +125,7 @@
     <MESSAGE value="Первая версия" />
     <MESSAGE value="Вторая версия" />
     <MESSAGE value="ReplyKeyboardMarkup" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReplyKeyboardMarkup" />
+    <MESSAGE value="InlineKeyboardMarkup" />
+    <option name="LAST_COMMIT_MESSAGE" value="InlineKeyboardMarkup" />
   </component>
 </project>
